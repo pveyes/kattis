@@ -31,6 +31,7 @@ while True:
     w, i = lp[1:]
     ii = int(i)
 
+    # del prev var
     pw = iw.get(ii)
     if pw is not None and wi.get(pw) is not None:
       del wi[pw]
